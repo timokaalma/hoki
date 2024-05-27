@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="hoki.ClubsPage"
+             Title="Eesti klubid">
+
+    <ScrollView>
+        <StackLayout Padding="10">
+            <Button Text="Tallinna HC Panter" Clicked="OnClubButtonClicked" CommandParameter="Tallinna HC Panter" />
+            <Button Text="Kohtla-Järve Viru Sputnik" Clicked="OnClubButtonClicked" CommandParameter="Kohtla-Järve Viru Sputnik" />
+            <Button Text="Kohtla-Järve HC Everest" Clicked="OnClubButtonClicked" CommandParameter="Kohtla-Järve HC Everest" />
+            <Button Text="Narva Paemurru Spordikool" Clicked="OnClubButtonClicked" CommandParameter="Narva Paemurru Spordikool" />
+            <Button Text="Tartu Välk 494" Clicked="OnClubButtonClicked" CommandParameter="Tartu Välk 494" />
+            <!-- Add more clubs as needed -->
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
