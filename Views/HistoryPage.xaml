@@ -4,13 +4,26 @@
              x:Class="hoki.HistoryPage"
              Title="History of Estonian Hockey League">
 
-    <ScrollView>
-        <StackLayout Padding="10">
-            <Label Text="History of Estonian Hockey League"
-                   FontSize="20"
-                   FontAttributes="Bold" />
-            <Label Text="(Add detailed history information here)"
-                   FontSize="16" />
-        </StackLayout>
-    </ScrollView>
+    <Grid>
+
+        <Image Source="background1.png"
+               Aspect="AspectFill"
+               VerticalOptions="FillAndExpand"
+               HorizontalOptions="FillAndExpand" />
+
+        <ScrollView>
+            <StackLayout Padding="10">
+                <Label Text="History of Estonian Hockey League"
+                       FontSize="35"
+                       HorizontalOptions="Center"
+                       Margin="50"
+                       FontAttributes="Bold"
+                       TextColor="Red" />
+                <Label Text="The Estonian Hockey League, also known as the Meistriliiga, has a rich history dating back to the early 20th century. The league was officially established in 1990, following Estonia's independence from the Soviet Union. Over the years, the league has seen the rise and fall of various teams, with HC Panter and Tartu Välk 494 being among the most successful clubs. The league has played a crucial role in developing ice hockey in Estonia, providing a platform for local talent to compete and showcase their skills. Today, the Estonian Hockey League continues to be a cornerstone of the country's ice hockey scene, fostering the growth of the sport and contributing to the national team's success on the international stage."
+                       FontSize="20"
+                       TextColor="Red" />
+            </StackLayout>
+        </ScrollView>
+
+    </Grid>
 </ContentPage>
