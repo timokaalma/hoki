@@ -3,10 +3,51 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="hoki.MainPage">
 
-    <StackLayout Padding="30">
-        <Button Text="History of Estonian Hockey League"
-                Clicked="OnHistoryButtonClicked" />
-        <Button Text="Estonian Hockey Clubs"
-                Clicked="OnClubsButtonClicked" />
-    </StackLayout>
+    <Grid>
+
+        <!-- Background Image -->
+        <Image Source="background1.png" 
+               Aspect="AspectFill" 
+               VerticalOptions="FillAndExpand" 
+               HorizontalOptions="FillAndExpand" 
+               Grid.Row="0" 
+               Grid.ColumnSpan="2" />
+
+        <!-- Content Overlaid on the Background Image -->
+        <StackLayout Padding="30"
+                     VerticalOptions="FillAndExpand"
+                     HorizontalOptions="FillAndExpand">
+
+            <Label Text="Eesti Hoki"
+                   Margin="50"
+                   FontSize="75"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Start"
+                   TextColor="Black"/>
+
+            <Button Text="History of Estonian Hockey League"
+                    Clicked="OnHistoryButtonClicked"
+                    CornerRadius="20"
+                    FontSize="25"
+                    HorizontalOptions="Center"
+                    TextColor="White"
+                    BackgroundColor="Red"/>
+
+            <Button Text="Estonian Hockey Clubs"
+                    Clicked="OnClubsButtonClicked"
+                    CornerRadius="20"
+                    FontSize="25"
+                    HorizontalOptions="Center"
+                    TextColor="White"
+                    BackgroundColor="Red"/>
+
+            <Button Text="Former Champions"
+                    Clicked="OnChampionsButtonClicked"
+                    CornerRadius="20"
+                    FontSize="25"
+                    HorizontalOptions="Center"
+                    TextColor="White"
+                    BackgroundColor="Red"/>
+        </StackLayout>
+    </Grid>
 </ContentPage>
