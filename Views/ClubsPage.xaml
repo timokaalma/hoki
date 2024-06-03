@@ -3,15 +3,63 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="hoki.ClubsPage"
              Title="Eesti klubid">
+    <Grid>
 
-    <ScrollView>
+        <Image Source="background1.png"
+               Aspect="AspectFill"
+               VerticalOptions="FillAndExpand"
+               HorizontalOptions="FillAndExpand" />
+
+        <ScrollView>
         <StackLayout Padding="10">
-            <Button Text="Tallinna HC Panter" Clicked="OnClubButtonClicked" CommandParameter="Tallinna HC Panter" />
-            <Button Text="Kohtla-Järve Viru Sputnik" Clicked="OnClubButtonClicked" CommandParameter="Kohtla-Järve Viru Sputnik" />
-            <Button Text="Kohtla-Järve HC Everest" Clicked="OnClubButtonClicked" CommandParameter="Kohtla-Järve HC Everest" />
-            <Button Text="Narva Paemurru Spordikool" Clicked="OnClubButtonClicked" CommandParameter="Narva Paemurru Spordikool" />
-            <Button Text="Tartu Välk 494" Clicked="OnClubButtonClicked" CommandParameter="Tartu Välk 494" />
-            <!-- Add more clubs as needed -->
+            <Label Text="Klubide nimekiri" 
+                   FontSize="35"
+                   HorizontalOptions="Center"
+                   Margin="50"
+                   FontAttributes="Bold"
+                   TextColor="Red"/>
+
+            <Button Text="Tallinna HC Panter" 
+                    Clicked="OnClubButtonClicked"  
+                    CommandParameter="Tallinna HC Panter" 
+                    CornerRadius="20"
+                    FontSize="25"
+                    HorizontalOptions="Center"
+                    TextColor="White"
+                    BackgroundColor="Red"/>
+            <Button Text="Kohtla-Järve Viru Sputnik" 
+                    Clicked="OnClubButtonClicked" 
+                    CommandParameter="Kohtla-Järve Viru Sputnik" 
+                    CornerRadius="20"
+                    FontSize="25"
+                    HorizontalOptions="Center"
+                    TextColor="White"
+                    BackgroundColor="Red"/>
+            <Button Text="Kohtla-Järve HC Everest" 
+                    Clicked="OnClubButtonClicked" 
+                    CommandParameter="Kohtla-Järve HC Everest" 
+                    CornerRadius="20"
+                    FontSize="25"
+                    HorizontalOptions="Center"
+                    TextColor="White"
+                    BackgroundColor="Red"/>
+            <Button Text="Narva Paemurru Spordikool" 
+                    Clicked="OnClubButtonClicked" 
+                    CommandParameter="Narva Paemurru Spordikool" 
+                    CornerRadius="20"
+                    FontSize="25"
+                    HorizontalOptions="Center"
+                    TextColor="White"
+                    BackgroundColor="Red"/>
+            <Button Text="Tartu Välk 494" 
+                    Clicked="OnClubButtonClicked" 
+                    CommandParameter="Tartu Välk 494" 
+                    CornerRadius="20"
+                    FontSize="25"
+                    HorizontalOptions="Center"
+                    TextColor="White"
+                    BackgroundColor="Red"/>
         </StackLayout>
     </ScrollView>
+    </Grid>
 </ContentPage>
