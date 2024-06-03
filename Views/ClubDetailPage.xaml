@@ -3,12 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="hoki.ClubDetailPage"
              Title="Club Details">
+    <Grid>
+        <AbsoluteLayout>
+        <Image x:Name="ClubLogoImage"
+               Aspect="AspectFill"
+               AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+               AbsoluteLayout.LayoutFlags="All"
+               Opacity="0.3" />
 
-    <StackLayout Padding="10">
+        <StackLayout Padding="10"
+                     AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+                     AbsoluteLayout.LayoutFlags="All">
         <Label x:Name="ClubNameLabel"
                FontSize="20"
                FontAttributes="Bold" />
         <Label x:Name="ClubDetailsLabel"
                FontSize="16" />
     </StackLayout>
+    </AbsoluteLayout>
+    </Grid>
 </ContentPage>
