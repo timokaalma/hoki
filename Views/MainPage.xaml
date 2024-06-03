@@ -31,7 +31,7 @@
                     FontSize="25"
                     HorizontalOptions="Center"
                     TextColor="White"
-                    BackgroundColor="Red"/>
+                    BackgroundColor="Blue"/>
 
             <Button Text="Estonian Hockey Clubs"
                     Clicked="OnClubsButtonClicked"
@@ -39,7 +39,7 @@
                     FontSize="25"
                     HorizontalOptions="Center"
                     TextColor="White"
-                    BackgroundColor="Red"/>
+                    BackgroundColor="Blue"/>
 
             <Button Text="Former Champions"
                     Clicked="OnChampionsButtonClicked"
@@ -47,7 +47,7 @@
                     FontSize="25"
                     HorizontalOptions="Center"
                     TextColor="White"
-                    BackgroundColor="Red"/>
+                    BackgroundColor="Blue"/>
         </StackLayout>
     </Grid>
 </ContentPage>

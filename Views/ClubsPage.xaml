@@ -13,11 +13,11 @@
         <ScrollView>
         <StackLayout Padding="10">
             <Label Text="Klubide nimekiri" 
-                   FontSize="35"
+                   FontSize="50"
                    HorizontalOptions="Center"
                    Margin="50"
                    FontAttributes="Bold"
-                   TextColor="Red"/>
+                   TextColor="Black"/>
 
             <Button Text="Tallinna HC Panter" 
                     Clicked="OnClubButtonClicked"  
@@ -26,7 +26,7 @@
                     FontSize="25"
                     HorizontalOptions="Center"
                     TextColor="White"
-                    BackgroundColor="Red"/>
+                    BackgroundColor="Blue"/>
             <Button Text="Kohtla-Järve Viru Sputnik" 
                     Clicked="OnClubButtonClicked" 
                     CommandParameter="Kohtla-Järve Viru Sputnik" 
@@ -34,7 +34,7 @@
                     FontSize="25"
                     HorizontalOptions="Center"
                     TextColor="White"
-                    BackgroundColor="Red"/>
+                    BackgroundColor="Blue"/>
             <Button Text="Kohtla-Järve HC Everest" 
                     Clicked="OnClubButtonClicked" 
                     CommandParameter="Kohtla-Järve HC Everest" 
@@ -42,7 +42,7 @@
                     FontSize="25"
                     HorizontalOptions="Center"
                     TextColor="White"
-                    BackgroundColor="Red"/>
+                    BackgroundColor="Blue"/>
             <Button Text="Narva Paemurru Spordikool" 
                     Clicked="OnClubButtonClicked" 
                     CommandParameter="Narva Paemurru Spordikool" 
@@ -50,7 +50,7 @@
                     FontSize="25"
                     HorizontalOptions="Center"
                     TextColor="White"
-                    BackgroundColor="Red"/>
+                    BackgroundColor="Blue"/>
             <Button Text="Tartu Välk 494" 
                     Clicked="OnClubButtonClicked" 
                     CommandParameter="Tartu Välk 494" 
@@ -58,7 +58,7 @@
                     FontSize="25"
                     HorizontalOptions="Center"
                     TextColor="White"
-                    BackgroundColor="Red"/>
+                    BackgroundColor="Blue"/>
         </StackLayout>
     </ScrollView>
     </Grid>
